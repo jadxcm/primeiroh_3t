@@ -40,7 +40,11 @@ function total(){
         resultado = valor * (1+(juros/100));
         valor = resultado;
     }
+    if (!Number(valor)){
+        alert("o valor deve ser um numero");
+        return
     
+  
     document.write("O Resultado é " + resultado);
 }
 function soma (){

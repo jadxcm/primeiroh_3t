@@ -1,1 +1,46 @@
+calculadora {
+    padding: 10px;
+    background:#cccccc;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.calculadora input{
+    background: rgb(230, 222, 236);
+    color: rgb(47, 37, 56);
+    border-radius: 5px;
+}
 
+.spResul {
+    background: rgb(77, 76, 78);
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#btnCal {
+    width: 50px;
+    padding: 5px;
+    background: rgb(54, 53, 54);
+    margin-top: 13px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#btnCal:hover {
+    background: rgb(93, 92, 95);
+    color: aliceblue;
+    cursor: pointer;
+}
+.calcF {
+    display: none;
+}
+#calcFin {
+    display: none;
+
+}
+#calcFin:checked + .calculadoura .calcF {
+    display: block;
+
+}
